@@ -1,6 +1,6 @@
 ﻿namespace Cartero
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -251,7 +251,7 @@
             this.txtSubj.TabIndex = 8;
             this.txtSubj.Text = "test";
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -278,7 +278,7 @@
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtServer);
             this.Controls.Add(this.cbHTML);
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Cartero";
             this.ResumeLayout(false);
             this.PerformLayout();

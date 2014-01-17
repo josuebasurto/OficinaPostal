@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Cartero
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -34,7 +34,8 @@ namespace Cartero
                     using (var message = new System.Net.Mail.MailMessage(txtFrom.Text, txtTo.Text)
                     {
                         Subject = txtSubj.Text,
-                        Body = txtMessage.Text
+                        Body = txtMessage.Text,
+                        IsBodyHtml = cbHTML.Checked
                     })
                     {
                         smtp.Send(message);
