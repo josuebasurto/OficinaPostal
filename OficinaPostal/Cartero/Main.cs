@@ -38,6 +38,7 @@ namespace Cartero
                     })
                     {
                         smtp.Send(message);
+                        MessageBox.Show("Mensaje Enviado.");
                     }
                 }
                 catch (Exception ex)

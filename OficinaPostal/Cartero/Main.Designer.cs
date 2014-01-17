@@ -69,7 +69,7 @@
             this.txtServer.Location = new System.Drawing.Point(60, 12);
             this.txtServer.Name = "txtServer";
             this.txtServer.Size = new System.Drawing.Size(396, 20);
-            this.txtServer.TabIndex = 1;
+            this.txtServer.TabIndex = 0;
             this.txtServer.Text = "smtp.gmail.com";
             // 
             // btnSend
@@ -77,7 +77,7 @@
             this.btnSend.Location = new System.Drawing.Point(60, 418);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(75, 23);
-            this.btnSend.TabIndex = 2;
+            this.btnSend.TabIndex = 10;
             this.btnSend.Text = "Enviar";
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
@@ -87,7 +87,7 @@
             this.txtPort.Location = new System.Drawing.Point(60, 38);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(396, 20);
-            this.txtPort.TabIndex = 3;
+            this.txtPort.TabIndex = 1;
             this.txtPort.Text = "587";
             // 
             // txtPass
@@ -96,14 +96,14 @@
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(396, 20);
-            this.txtPass.TabIndex = 5;
+            this.txtPass.TabIndex = 3;
             // 
             // txtUser
             // 
             this.txtUser.Location = new System.Drawing.Point(60, 90);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(396, 20);
-            this.txtUser.TabIndex = 4;
+            this.txtUser.TabIndex = 2;
             // 
             // label1
             // 
@@ -163,15 +163,14 @@
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(396, 112);
-            this.txtMessage.TabIndex = 8;
+            this.txtMessage.TabIndex = 9;
             // 
             // txtFrom
             // 
             this.txtFrom.Location = new System.Drawing.Point(60, 142);
             this.txtFrom.Name = "txtFrom";
-            this.txtFrom.PasswordChar = '*';
             this.txtFrom.Size = new System.Drawing.Size(396, 20);
-            this.txtFrom.TabIndex = 5;
+            this.txtFrom.TabIndex = 4;
             // 
             // label5
             // 
@@ -187,7 +186,6 @@
             // 
             this.txtTo.Location = new System.Drawing.Point(60, 168);
             this.txtTo.Name = "txtTo";
-            this.txtTo.PasswordChar = '*';
             this.txtTo.Size = new System.Drawing.Size(396, 20);
             this.txtTo.TabIndex = 5;
             // 
@@ -205,9 +203,8 @@
             // 
             this.txtCC.Location = new System.Drawing.Point(60, 194);
             this.txtCC.Name = "txtCC";
-            this.txtCC.PasswordChar = '*';
             this.txtCC.Size = new System.Drawing.Size(396, 20);
-            this.txtCC.TabIndex = 5;
+            this.txtCC.TabIndex = 6;
             // 
             // label7
             // 
@@ -223,9 +220,8 @@
             // 
             this.txtBcc.Location = new System.Drawing.Point(60, 220);
             this.txtBcc.Name = "txtBcc";
-            this.txtBcc.PasswordChar = '*';
             this.txtBcc.Size = new System.Drawing.Size(396, 20);
-            this.txtBcc.TabIndex = 5;
+            this.txtBcc.TabIndex = 7;
             // 
             // label8
             // 
@@ -251,9 +247,8 @@
             // 
             this.txtSubj.Location = new System.Drawing.Point(60, 274);
             this.txtSubj.Name = "txtSubj";
-            this.txtSubj.PasswordChar = '*';
             this.txtSubj.Size = new System.Drawing.Size(396, 20);
-            this.txtSubj.TabIndex = 9;
+            this.txtSubj.TabIndex = 8;
             this.txtSubj.Text = "test";
             // 
             // Form1
