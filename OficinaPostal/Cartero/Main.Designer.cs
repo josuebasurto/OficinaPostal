@@ -76,16 +76,16 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtServer.Location = new System.Drawing.Point(51, 6);
             this.txtServer.Name = "txtServer";
-            this.txtServer.Size = new System.Drawing.Size(440, 20);
+            this.txtServer.Size = new System.Drawing.Size(513, 20);
             this.txtServer.TabIndex = 0;
             this.txtServer.Text = "smtp.gmail.com";
             // 
             // btnSend
             // 
-            this.btnSend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSend.Location = new System.Drawing.Point(48, 353);
+            this.btnSend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSend.Location = new System.Drawing.Point(486, 434);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(75, 23);
+            this.btnSend.Size = new System.Drawing.Size(75, 49);
             this.btnSend.TabIndex = 10;
             this.btnSend.Text = "Enviar";
             this.btnSend.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPort.Location = new System.Drawing.Point(51, 32);
             this.txtPort.Name = "txtPort";
-            this.txtPort.Size = new System.Drawing.Size(440, 20);
+            this.txtPort.Size = new System.Drawing.Size(513, 20);
             this.txtPort.TabIndex = 1;
             this.txtPort.Text = "587";
             // 
@@ -108,7 +108,7 @@
             this.txtPass.Location = new System.Drawing.Point(51, 110);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(440, 20);
+            this.txtPass.Size = new System.Drawing.Size(513, 20);
             this.txtPass.TabIndex = 3;
             // 
             // txtUser
@@ -117,7 +117,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtUser.Location = new System.Drawing.Point(51, 84);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(440, 20);
+            this.txtUser.Size = new System.Drawing.Size(513, 20);
             this.txtUser.TabIndex = 2;
             // 
             // label1
@@ -180,7 +180,7 @@
             this.txtMessage.Location = new System.Drawing.Point(48, 138);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(440, 209);
+            this.txtMessage.Size = new System.Drawing.Size(513, 290);
             this.txtMessage.TabIndex = 9;
             // 
             // txtFrom
@@ -189,7 +189,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFrom.Location = new System.Drawing.Point(51, 136);
             this.txtFrom.Name = "txtFrom";
-            this.txtFrom.Size = new System.Drawing.Size(440, 20);
+            this.txtFrom.Size = new System.Drawing.Size(513, 20);
             this.txtFrom.TabIndex = 4;
             // 
             // label5
@@ -208,7 +208,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTo.Location = new System.Drawing.Point(48, 6);
             this.txtTo.Name = "txtTo";
-            this.txtTo.Size = new System.Drawing.Size(440, 20);
+            this.txtTo.Size = new System.Drawing.Size(513, 20);
             this.txtTo.TabIndex = 5;
             // 
             // label6
@@ -227,7 +227,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCC.Location = new System.Drawing.Point(48, 32);
             this.txtCC.Name = "txtCC";
-            this.txtCC.Size = new System.Drawing.Size(440, 20);
+            this.txtCC.Size = new System.Drawing.Size(513, 20);
             this.txtCC.TabIndex = 6;
             // 
             // label7
@@ -246,7 +246,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBcc.Location = new System.Drawing.Point(48, 58);
             this.txtBcc.Name = "txtBcc";
-            this.txtBcc.Size = new System.Drawing.Size(440, 20);
+            this.txtBcc.Size = new System.Drawing.Size(513, 20);
             this.txtBcc.TabIndex = 7;
             // 
             // label8
@@ -275,7 +275,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSubj.Location = new System.Drawing.Point(48, 112);
             this.txtSubj.Name = "txtSubj";
-            this.txtSubj.Size = new System.Drawing.Size(440, 20);
+            this.txtSubj.Size = new System.Drawing.Size(513, 20);
             this.txtSubj.TabIndex = 8;
             this.txtSubj.Text = "test";
             // 
@@ -287,7 +287,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(506, 407);
+            this.tabControl1.Size = new System.Drawing.Size(579, 517);
             this.tabControl1.TabIndex = 11;
             // 
             // tabPage1
@@ -306,7 +306,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(498, 381);
+            this.tabPage1.Size = new System.Drawing.Size(571, 491);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Configuration";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -327,7 +327,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(498, 381);
+            this.tabPage2.Size = new System.Drawing.Size(571, 491);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Emailing";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -336,10 +336,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 407);
+            this.ClientSize = new System.Drawing.Size(579, 517);
             this.Controls.Add(this.tabControl1);
             this.Name = "Main";
             this.Text = "Cartero";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
+            this.Load += new System.EventHandler(this.Main_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
