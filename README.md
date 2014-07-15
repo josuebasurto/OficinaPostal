@@ -7,6 +7,12 @@
  Visual Studio 2013
  Other non described here (pending)
  
+#Collab
+
+Report Issues: https://github.com/josuebasurto/OficinaPostal/issues
+Collaborate: https://github.com/josuebasurto/OficinaPostal/pulls
+Wiki: https://github.com/josuebasurto/OficinaPostal/wiki (Under Construction)
+ 
 # Versions
  
 ## 1.0.0.0
