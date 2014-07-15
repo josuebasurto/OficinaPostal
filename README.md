@@ -9,9 +9,9 @@
  
 #Collab
 
-Report Issues: https://github.com/josuebasurto/OficinaPostal/issues
-Collaborate: https://github.com/josuebasurto/OficinaPostal/pulls
-Wiki: https://github.com/josuebasurto/OficinaPostal/wiki (Under Construction)
+ * Report Issues: https://github.com/josuebasurto/OficinaPostal/issues
+ * Collaborate: https://github.com/josuebasurto/OficinaPostal/pulls
+ * Wiki: https://github.com/josuebasurto/OficinaPostal/wiki (Under Construction)
  
 # Versions
  
