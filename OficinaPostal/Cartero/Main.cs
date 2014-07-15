@@ -58,5 +58,46 @@ namespace Cartero
             catch { }
             return defaultValue;
         }
+
+        private void Bind()
+        {
+            Entities.ConfigurationsEntity entidad = Entities.ConfigurationsEntity.Create(Tools.Constants.Key);
+            if (entidad.Load())
+            {
+                txtServer.Text = entidad.Server;
+                txtPort.Text = entidad.Port.ToString();
+                txtUser.Text = entidad.User;
+                txtPass.Text = entidad.Password;
+                cbSSL.Checked = entidad.SSL;
+                txtFrom.Text = entidad.From;
+            }
+        }
+
+        private void Unbind()
+        {
+            Entities.ConfigurationsEntity entidad = new Entities.ConfigurationsEntity(Tools.Constants.Key);
+            entidad.Server = txtServer.Text;
+
+            var puerto = 0;
+            int.TryParse(txtPort.Text, out puerto);
+            entidad.Port = puerto;
+
+            entidad.User = txtUser.Text;
+            entidad.Password = txtPass.Text;
+            entidad.SSL = cbSSL.Checked;
+            entidad.From = txtFrom.Text;
+
+            entidad.Save();
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            Bind();
+        }
+
+        private void Main_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Unbind();
+        }
     }
 }
