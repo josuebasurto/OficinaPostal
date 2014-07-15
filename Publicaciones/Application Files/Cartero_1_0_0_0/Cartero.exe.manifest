@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Cartero.exe" version="1.0.0.0" publicKeyToken="6ae040a3e60cac01" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Cartero" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Cartero.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cartero.exe" size="16896">
+      <assemblyIdentity name="Cartero" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4FMC4IQxvPLaj+LjonRiHtKcxKxwBX7dpP5UNqPfZsk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Cartero.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fzxBSr45tumrN8SNWWL0IeqRlxoh8+san/F4n6/GZJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=TRESS\JBasurto" issuerKeyHash="0edefecce66e547d33dbbb19e1ac757ac103b3ba" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>47GIb5tIULS8xtNKyKdi5t5giGTR3jNnSpxkpapfVMg=</DigestValue></Reference></SignedInfo><SignatureValue>QAKeZPdOVvPJaKYV8G7jCYYgKT1ZXSd0q83/pysO+0DCN9k89p5tx5kBGX7pj3Jdx9Eg7tr22EU1gHUK8mNrfArmuTppg9MN2NZou82Wpsyvkcm1XJiOdZQtyMfZT+OkIrTxKLVepe4LE0XlACIy3zNeKW1AeOh+OPqIqEUQZbM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mLbcq51Z88L0JTBwDS+YZPm7/xQ4hARnwkELdAd4yDy1d/sd8jQP8ynl+HLS1JBEaHmTWper/pwdPaach/N5c5B2EWsWPS89Cj/HCjwzxBAJAGckH15K9hsE4auwbz5S72wMD7qapMtssruAtqx2PMVexT7YMoNilhBo+o5pdwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c8545faaa5649c4a6733ded1648860dee662a7c84ad3c6bcb450489b6f88b1e3" Description="" Url=""><as:assemblyIdentity name="Cartero.exe" version="1.0.0.0" publicKeyToken="6ae040a3e60cac01" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TRESS\JBasurto</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mt6FFHe8Li4Q64KPHeVpK32mv4BOTM+cTShNU2Ri4WE=</DigestValue></Reference></SignedInfo><SignatureValue>je79MZnmG9+RSe30MAFrLIiukpbeRzUgaBgiyIjInfh0yW2m6KKbSIj/2cT2XVnrWTzyTku0V9LjXJdmmdl4StYx6kM7e+tjlTsmD8XARvLWGs4u8SIq+Y9nwfsSRt4P5W17BHVRPOIUOQ9fI3CHQXYyHVarkBl3nqQGDqu2JRY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mLbcq51Z88L0JTBwDS+YZPm7/xQ4hARnwkELdAd4yDy1d/sd8jQP8ynl+HLS1JBEaHmTWper/pwdPaach/N5c5B2EWsWPS89Cj/HCjwzxBAJAGckH15K9hsE4auwbz5S72wMD7qapMtssruAtqx2PMVexT7YMoNilhBo+o5pdwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQOd8ZJUVd2YxJIO1ZABZc+zANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAVABSAEUAUwBTAFwASgBCAGEAcwB1AHIAdABvMB4XDTE0MDcxNTE4MzczNVoXDTE1MDcxNjAwMzczNVowJzElMCMGA1UEAx4cAFQAUgBFAFMAUwBcAEoAQgBhAHMAdQByAHQAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmLbcq51Z88L0JTBwDS+YZPm7/xQ4hARnwkELdAd4yDy1d/sd8jQP8ynl+HLS1JBEaHmTWper/pwdPaach/N5c5B2EWsWPS89Cj/HCjwzxBAJAGckH15K9hsE4auwbz5S72wMD7qapMtssruAtqx2PMVexT7YMoNilhBo+o5pdwECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAEKvgC7KZlCLA/NX/dAUydxRKlvoy2dT8tm04Dk6J+0vA3F4lMeBi7T0SN5Cx5KfqY6RNyAcF/I8WagO1xfpPzz9RP6tPEnnV9kH0sbrSHSaICoJcBaRoBn8rPIVbc6A7gStU6Q8YFfTN0vK4wNhBsuxVfSBvO4jqORhQAPH/vNQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
